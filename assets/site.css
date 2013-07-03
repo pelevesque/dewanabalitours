@@ -1,0 +1,431 @@
+/****************************************************
+  RESET
+****************************************************/
+
+html, body, div, span,
+h1, h2, h3, p, a, address, img,
+small, ol, ul, li, article, footer,
+header, hgroup, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* Fixes old browser resize bugs */
+html { font-size: 100.01%; }
+
+/* HTML5 display-role reset for older browsers */
+article, footer, header, hgroup, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+a {
+	text-decoration: none;
+}
+
+em {
+	font-style: normal;	
+}
+
+ol, ul {
+	list-style: none;
+}
+
+/****************************************************
+  SITE
+****************************************************/
+
+html {
+	background-color: #223f17;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#0f161c), to(#223f17));
+	background-image: -webkit-linear-gradient(top, #0f161c, #223f17);
+	background-image: -moz-linear-gradient(top, #0f161c, #223f17);
+	background-image: -ms-linear-gradient(top, #0f161c, #223f17);
+	background-image: -o-linear-gradient(top, #0f161c, #223f17);
+	background-image: linear-gradient(top, #0f161c, #223f17);
+	min-height: 100%;
+}
+
+body {
+	background: #f6f6f6;
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+	margin: auto;
+	width: 960px;
+	-moz-box-shadow: 0 0 4px 4px #111;
+	-webkit-box-shadow: 0 0 4px 4px #111;
+	box-shadow: 0 0 4px 4px #111;
+}
+
+nav {
+	background: #0f161c;
+	height: 34px;
+	position: absolute;
+	width: 960px;
+	z-index: 99;
+	border-bottom: 5px solid rgba(0,0,0,0.3);
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding;
+	background-clip: padding-box;
+}
+
+nav ul {
+	margin-left: 15px;
+}
+
+nav ul li {
+	float: left;
+	font-size: 0.688em;
+	letter-spacing: 2px;
+	margin: 11px 40px 0 0;
+	text-transform: uppercase;
+}
+
+nav ul li.active {
+	color: #f6f6f6;
+}
+
+/* a:link and a:visited must come before a:hover */
+nav ul li a:link, nav ul li a:visited {
+	color: #aaa;
+}
+
+nav ul li a:hover {
+	color: #f6f6f6;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
+
+/* a:active must come after a:hover */
+nav ul li a:active {
+	color: #aaa;
+}
+
+hgroup {
+	background: url('images/slideshow/uluwatu.jpg') bottom left;
+}
+
+hgroup, .slideshow {
+	height: 500px;
+	padding-top: 34px;
+	width: 960px;
+}
+
+hgroup h1, hgroup h2 {
+	display: none;
+}
+
+div[role="main"] {
+	border-top: 5px solid #0f161c;
+	border-bottom: 5px solid #ccc;
+	padding: 50px 0 20px 0;
+}
+
+div[role="main"] h2 {
+	background: #0f161c;
+	color: #f6f6f6;
+	font-size: 16px;
+	letter-spacing: 2px;
+	padding: 10px;
+	position: absolute;
+	text-transform: uppercase;
+	top: 481px;
+	z-index: 9999;
+	-mox-border-top-right-radius: 10px;
+	-mox-border-bottom-right-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+div[role="main"] p {
+	font-size: 14px;
+	line-height:1.5em;
+	margin-bottom: 30px;
+	max-width: 525px;	
+	padding-left: 50px;
+}
+
+/* clears floats */
+#tours, #vehicles, #photos {
+	width: 100%;
+	overflow: hidden;
+}
+
+#tours article:first-of-type {
+	margin-left: 70px;	
+}
+
+#tours article {
+	border: 1px solid #aaa;
+	float: left;
+	margin: 20px 45px 20px 0;
+	padding: 20px;
+	width: 200px;
+	background-color: #faf9ee;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#faf9ee), to(#edebde));
+	background-image: -webkit-linear-gradient(top, #faf9ee, #faf9ee);
+	background-image: -moz-linear-gradient(top, #faf9ee, #edebde);
+	background-image: -ms-linear-gradient(top, #faf9ee, #edebde);
+	background-image: -o-linear-gradient(top, #faf9ee, #edebde);
+	background-image: linear-gradient(top, #faf9ee, #edebde);
+}
+
+#tours article h3 {
+	font-size: 17px;
+	margin-bottom: 15px;
+	text-align: center;	
+	text-transform: uppercase;
+}
+
+#tours article p {
+	color: #cccccc;
+	font-size: 12px;
+	padding: 4px;
+	text-align: center;
+	background-color: #669654;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#669654), to(#223f17));
+	background-image: -webkit-linear-gradient(top, #669654, #223f17);
+	background-image: -moz-linear-gradient(top, #669654, #223f17);
+	background-image: -ms-linear-gradient(top, #669654, #223f17);
+	background-image: -o-linear-gradient(top, #669654, #223f17);
+	background-image: linear-gradient(top, #669654, #223f17);
+	-mox-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#tours article p em {
+	color: #ffffff;
+	font-size: 15px;
+}
+
+#tours article li {
+	color: #212121;
+	font-size: 12px;
+	line-height: 1.8em;
+	list-style: none;
+	margin-left: 20px;
+}
+
+#tours article li:before {
+	color: #bbb;
+	display: block;
+	content:'\25A0'; /* square = '\25A0', circle = '\2022' */
+	font-size: 13px;
+	left: -15px;
+	max-height: 0px;
+	max-width: 0px;
+	position: relative;
+}
+
+#tours article li ul {
+	margin-bottom: 2px;	
+}
+
+#tours article li ul li {
+	font-size: 11px;
+	line-height: 1.5em;	
+	margin-left: 15px;
+}
+
+#tours>p {
+	font-style: italic;
+	font-size: 13px;	
+}
+
+ul[role="gallery"] {
+	padding-left: 50px;
+}
+
+ul[role="gallery"] li {
+	float: left;
+	margin: 19px
+}
+
+ul[role="gallery"] li img {
+	border: 2px solid #ddd;
+	padding: 4px;
+}
+
+ul[role="gallery"] li img:hover {
+	border: 2px solid #333;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
+
+footer {
+	background: #0f161c url('images/css/site/temple.png') no-repeat bottom right;
+	color: #cccccc;
+	padding: 50px 50px 10px 50px;
+}
+
+#team {
+	float: left;
+	padding-right: 30px;
+	width: 425px;
+	margin-bottom: 20px;
+}
+
+#team h2, #contact_us h2 {
+	font-size: 18px;
+	letter-spacing: 2px;
+	margin-bottom: 25px;
+}
+
+#team article {
+	font-size: 13px;
+	line-height: 1.5em;
+	margin-bottom: 30px;
+}
+
+#team article h3 {
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+
+#contact_us {
+	float: right;
+	margin-right: 150px;
+}
+
+#contact_us .tel, #contact_us .email {
+	display: block;
+	font-size: 13px;
+	height: 20px;
+	line-height: 20px;
+	text-indent: 35px;
+}
+
+#contact_us .tel {
+	background: url('images/css/site/phone.png') no-repeat bottom left;
+	margin-bottom: 10px;
+}
+
+#contact_us .email {
+	background: url('images/css/site/mail.png') no-repeat bottom left;
+}
+
+#contact_us .tel small { display: inline }
+
+/* a:link and a:visited must come before a:hover */
+#contact_us .email a:link, #contact_us .email a:visited {
+	color: #ccc;
+}
+
+#contact_us .email a:hover {
+	color: #f6f6f6;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
+
+/* a:active must come after a:hover */
+#contact_us .email a:active {
+	color: #ccc;
+}
+
+footer small {
+	clear: both;
+	color: #454545;
+	display: block;
+	font-size: 10px;
+	letter-spacing: 1px;
+}
+
+/****************************************************
+  SLIMBOX 2
+****************************************************/
+#lbOverlay {
+	position: fixed;
+	z-index: 9999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	cursor: pointer
+}
+
+#lbCenter, #lbBottomContainer {
+	position: absolute;
+	z-index: 9999;
+	overflow: hidden;
+	background-color: #fff
+}
+
+.lbLoading {
+	background: #fff url("images/css/slimbox2/loading.gif") no-repeat center
+}
+
+#lbImage {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 10px solid #fff;
+	background-repeat: no-repeat
+}
+
+#lbPrevLink, #lbNextLink {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 50%;
+	outline: none
+}
+
+#lbPrevLink {
+	left: 0
+}
+
+#lbPrevLink:hover {
+	background: transparent url("images/css/slimbox2/prevlabel.gif") no-repeat 0 15%
+}
+
+#lbNextLink {
+	right: 0
+}
+
+#lbNextLink:hover {
+	background: transparent url("images/css/slimbox2/nextlabel.gif") no-repeat 100% 15%
+}
+
+#lbBottom {
+	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+	line-height: 1.4em;
+	text-align: left;
+	border: 10px solid #fff;
+	border-top-style: none
+}
+
+#lbCloseLink {
+	display: block;
+	float: right;
+	width: 66px;
+	height: 22px;
+	background: transparent url("images/css/slimbox2/closelabel.gif") no-repeat center;
+	margin: 5px 0;
+	outline: none
+}
+
+#lbCaption, #lbNumber {
+	margin-right: 71px
+}
+
+#lbCaption {
+	font-weight: bold
+}

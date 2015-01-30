@@ -1,7 +1,7 @@
 <?php $page = 'Photos'; include('includes/header.php') ?>
       <section id="photos">
         <h2>Photos</h2>
-        <ul role="gallery">
+        <ul id="gallery">
           <li><a href="assets/images/photos/big/pond.jpg"><img src="assets/images/photos/small/pond.jpg" width="235" height="176" alt="pond"></a></li>
           <li><a href="assets/images/photos/big/batur.jpg"><img src="assets/images/photos/small/batur.jpg" width="235" height="176" alt="batur"></a></li>
           <li><a href="assets/images/photos/big/cave.jpg"><img src="assets/images/photos/small/cave.jpg" width="235" height="176" alt="cave"></a></li>

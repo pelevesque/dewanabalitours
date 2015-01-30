@@ -18,9 +18,9 @@
           <li<?php if ($page == 'Photos'): ?> class="active">Photos<?php else: ?>><a href="photos.php">Photos</a><?php endif ?></li>
         </ul>
       </nav>
-      <hgroup>
+      <div>
         <h1>Dewana Bali Tours</h1>
         <h2>Touring the beauty of Bali</h2>
-      </hgroup>
+      </div>
     </header>
     <div role="main">

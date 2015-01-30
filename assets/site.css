@@ -109,17 +109,17 @@ nav ul li a:active {
 	color: #aaa;
 }
 
-hgroup {
+header div {
 	background: url('images/slideshow/uluwatu.jpg') bottom left;
 }
 
-hgroup, .slideshow {
+header div, .slideshow {
 	height: 500px;
 	padding-top: 34px;
 	width: 960px;
 }
 
-hgroup h1, hgroup h2 {
+header div h1, header div h2 {
 	display: none;
 }
 
@@ -243,21 +243,21 @@ div[role="main"] p {
 	font-size: 13px;	
 }
 
-ul[role="gallery"] {
+ul#gallery {
 	padding-left: 50px;
 }
 
-ul[role="gallery"] li {
+ul#gallery li {
 	float: left;
 	margin: 19px
 }
 
-ul[role="gallery"] li img {
+ul#gallery li img {
 	border: 2px solid #ddd;
 	padding: 4px;
 }
 
-ul[role="gallery"] li img:hover {
+ul#gallery li img:hover {
 	border: 2px solid #333;
 	-moz-transition: all 0.4s linear;
 	-webkit-transition: all 0.4s linear;

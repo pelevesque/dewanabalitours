@@ -5,6 +5,7 @@
     <meta name="description" content="Dewana Bali Tours offers tours and travel services throughout the beautiful island of Bali.">
     <title>Dewana Bali Tours &ndash; <?php echo $page ?></title>
     <link rel="stylesheet" href="assets/site.css">
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <!--[if IE]><script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script><![endif]-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     <script src="assets/site.js"></script>

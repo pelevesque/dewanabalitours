@@ -309,12 +309,7 @@ footer {
 }
 
 #contact_us .tel {
-	background: url('images/css/site/phone.png') no-repeat bottom left;
-	margin-bottom: 10px;
-}
-
-#contact_us .email {
-	background: url('images/css/site/mail.png') no-repeat bottom left;
+  margin-bottom: 10px;
 }
 
 #contact_us .tel small { display: inline }

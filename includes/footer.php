@@ -14,8 +14,8 @@
       <section id="contact_us">
         <h2>Contact Us</h2>
         <address class="vcard">
-          <span class="tel">+62 81<small>&ndash;</small>916<small>&ndash;</small>116<small>&ndash;</small>749</span>
-          <span class="email"><a href="mailto:info@dewanabalitours.com">info@dewanabalitours.com</a></span>
+          <span class="tel"><i class="fa fa-phone fa-2x"></i> +62 81<small>&ndash;</small>916<small>&ndash;</small>116<small>&ndash;</small>749</span>
+          <span class="email"><i class="fa fa-envelope-o fa-2x"></i> <a href="mailto:info@dewanabalitours.com">info@dewanabalitours.com</a></span>
         </address>
       </section>
       <small>&copy; 2013, Dewana Bali Tours</small>

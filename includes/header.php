@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="description" content="Dewana Bali Tours offers tours and travel services throughout the beautiful island of Bali.">
     <title>Dewana Bali Tours &ndash; <?php echo $page ?></title>
     <link rel="stylesheet" href="assets/site.css">

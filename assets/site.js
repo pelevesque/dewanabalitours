@@ -612,7 +612,7 @@ jQuery(function($) {
 // AUTOLOAD CODE BLOCK (MAY BE CHANGED OR REMOVED)
 if (!/android|iphone|ipod|series60|symbian|windows ce|blackberry/i.test(navigator.userAgent)) {
 	jQuery(function($) {
-		$('ul[role="gallery"] li a').slimbox({/* Put custom options here */}, null, function(el) {
+		$('ul#gallery li a').slimbox({/* Put custom options here */}, null, function(el) {
 			return true;
 		});
 	});
@@ -628,7 +628,7 @@ if (!/android|iphone|ipod|series60|symbian|windows ce|blackberry/i.test(navigato
  **/
 jQuery(document).ready(function () {	
 	// Do not use the slideshow if CSS is not activated.
-	if ($('header hgroup h1').css('display') == 'none')
+	if ($('header div h1').css('display') == 'none')
 	{
 		var slideshow = '<ul class="slideshow">';
 		slideshow += '<li><img src="assets/images/slideshow/uluwatu.jpg" alt="uluwatu"></li>';
@@ -638,7 +638,7 @@ jQuery(document).ready(function () {
 		slideshow += '</ul>';
 		$('header nav').after(slideshow);
 		$('header .slideshow').waitForImages(function() {
-			$('header hgroup').css('display', 'none');
+			$('header div').css('display', 'none');
 			$('header .slideshow').moodular({
 				effects: 'fade',
 				auto: true,

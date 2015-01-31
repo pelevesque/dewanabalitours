@@ -48,6 +48,6 @@
             <li>Art Museum</li>
           </ol>
         </article>
-        <p>Custom tours are also available on demand.</p>
+        <p>* Custom tours are also available on demand.</p>
       </section>
 <?php include('includes/footer.php') ?>

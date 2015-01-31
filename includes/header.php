@@ -6,6 +6,7 @@
     <title>Dewana Bali Tours &ndash; <?php echo $page ?></title>
     <link rel="stylesheet" href="assets/site.css">
     <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,900italic,900,700italic,400italic,300italic,300' rel='stylesheet' type='text/css'>
     <!--[if IE]><script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script><![endif]-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     <script src="assets/site.js"></script>

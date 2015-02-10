@@ -81,12 +81,13 @@ html {
 body {
   margin: auto;
   width: 960px;
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
   background: #0f161c;
   padding-bottom: 20px;
-  -moz-box-shadow: 0 0 6px 6px #ccc;
-  -webkit-box-shadow: 0 0 6px 6px #ccc;
-  box-shadow: 0 0 6px 6px #ccc;
+  -moz-box-shadow: 0 0 8px 8px #777;
+  -webkit-box-shadow: 0 0 8px 8px #777;
+  box-shadow: 0 0 8px 8px #777;
 }
 
 nav {
@@ -166,9 +167,8 @@ div[role="main"] h2 {
 }
 
 div[role="main"] p {
-  font-size: 1.075em;
-  line-height: 1.6em;
-  letter-spacing: 1px;
+  font-size: 1.05em;
+  line-height: 1.7em;
   max-width: 510px;
   padding-left: 50px;
   color: #777;
@@ -274,16 +274,17 @@ ul#gallery li {
 }
 
 ul#gallery li img {
-  border: 1px solid #ddd;
+  border: 1px solid #ccc;
   padding: 4px;
 }
 
 footer {
-  background: #0f161c url('images/css/site/temple.png') no-repeat;
-  background-position: 95% 83%;
-  color: #aaa;
+  color: #888;
   padding: 50px 50px 10px 50px;
-  color: #999;
+  /*
+  background: url('images/css/site/bali-dancer.jpg') no-repeat;
+  background-position: 92% 79%;
+  */
 }
 
 footer div {
@@ -298,58 +299,49 @@ footer div {
 }
 
 #team h2, #contact_us h2 {
-  font-size: 1.4em;
+  font-size: 1.3em;
   letter-spacing: 2px;
-  margin-bottom: 25px;
-}
-
-#team article {
-  font-size: 0.95em;
-  line-height: 1.6em;
   margin-bottom: 30px;
+  text-transform: uppercase;
+  color: #ccc;
 }
 
 #team article h3 {
   font-size: 1em;
   margin-bottom: 15px;
   letter-spacing: 1px;
+  color: #aaa;
+}
+
+#team article {
+  font-size: 0.95em;
+  line-height: 1.7em;
+  margin-bottom: 30px;
 }
 
 #contact_us {
   float: right;
-  margin-right: 20px;
-}
-
-#contact_us address span i {
-  margin-right: 10px;
-  font-size: 1.6em;
-}
-
-#contact_us address span i, #contact_us address span span {
-  display: inline-block;
-  vertical-align: middle;	
+  text-align: right;
 }
 
 #contact_us .tel, #contact_us .email {
   display: block;
-  font-size: 1em;
+  font-size: 0.90em;
+  letter-spacing: 1px;
 }
 
 #contact_us .tel {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  color: #aaa;
 }
 
 #contact_us .tel small {
   display: inline;
 }
 
-#contact_us .email {
-  letter-spacing: 1px;
-}
-
 /* a:link and a:visited must come before a:hover */
 #contact_us .email a:link, #contact_us .email a:visited {
-  color: #ccc;
+  color: #aaa;
 }
 
 #contact_us .email a:hover {
@@ -362,7 +354,12 @@ footer div {
 
 /* a:active must come after a:hover */
 #contact_us .email a:active {
-  color: #ccc;
+  color: #aaa;
+}
+
+#contact_us img {
+  margin-top: 145px;
+  border: 1px solid #2a2a2a;
 }
 
 footer small {

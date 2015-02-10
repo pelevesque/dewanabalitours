@@ -15,12 +15,13 @@
         <section id="contact_us">
           <h2>Contact Us</h2>
           <address class="vcard">
-            <span class="tel"><i class="fa fa-phone"></i> <span>+62 81<small>&ndash;</small>916<small>&ndash;</small>116<small>&ndash;</small>749</span></span>
-            <span class="email"><i class="fa fa-envelope-o"></i> <span><a href="mailto:info@dewanabalitours.com">info@dewanabalitours.com</a></span></span>
+            <span class="tel"><span>+62 81<small>&ndash;</small>916<small>&ndash;</small>116<small>&ndash;</small>749</span></span>
+            <span class="email"><span><a href="mailto:info@dewanabalitours.com">info@dewanabalitours.com</a></span></span>
           </address>
+          <img src="assets/images/css/site/bali-dancer.jpg" width="330" alt="dancer">
         </section>
       </div>
-      <small>&copy; 2013, Dewana Bali Tours</small>
+      <small>&copy; 2014 Dewana Bali Tours</small>
     </footer>
   </body>
 </html>
